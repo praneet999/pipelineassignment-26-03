@@ -1,5 +1,3 @@
-Jenkinsfile  README.md
-ubuntu@ip-172-31-44-169:~/pipelineassignment-26-03$ vi Jenkinsfile
 pipeline {
    agent any
    stages {
@@ -28,3 +26,5 @@ pipeline {
                echo 'Deploying to server'
            }
        }
+   }
+}
